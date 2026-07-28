@@ -23,18 +23,15 @@ The workflow is designed to be simple to run, easy to modify, and strong enough 
 ## Project Structure
 
 ```bash
-.
-├── fifa_world_cup_2026_player_performance.csv
-├── wc_stat_upgraded.ipynb
-├── wc_stat_upgraded.py
-├── player_aggregates.csv
-├── best_xi.csv
-├── nationality_strength.csv
-├── xg_over_underperformers.csv
-├── clutch_performers.csv
-├── finishing_delta.png
-├── clutch_factor.png
-└── efficiency_scatter.png
+
+├── data/
+│   └── fifa_world_cup_2026_player_performance.csv
+├── notebooks/
+│   ├── 01_cleaning.ipynb
+│   ├── 02_eda.ipynb
+├── outputs/
+│   └── (charts, cleaned CSV, model files)
+├── README.md
 ```
 
 ## Core Analysis
@@ -95,11 +92,6 @@ The notebook generates three main charts:
 3. Open `wc_stat_upgraded.ipynb` in Jupyter Notebook or JupyterLab.
 4. Run the notebook from top to bottom.
 
-To run the script version:
-
-```bash
-python wc_stat_upgraded.py
-```
 
 ## Output Files
 
