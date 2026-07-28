@@ -89,7 +89,7 @@ The notebook generates three main charts:
 
 1. Clone the repository.
 2. Place `fifa_world_cup_2026_player_performance.csv` in the project root.
-3. Open `wc_stat_upgraded.ipynb` in Jupyter Notebook or JupyterLab.
+3. Open `02_eda.ipynb` in Jupyter Notebook or JupyterLab.
 4. Run the notebook from top to bottom.
 
 
